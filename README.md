@@ -1,1 +1,11 @@
 # California-House-pricing-KC-Housing-data-set-Supervised-Predictive-Model-Continuous-Regression
+The California housing dataset, derived from the 1990 U.S. census, serves as a rich source for exploring housing patterns and building predictive models. Employing various machine learning algorithms, including Random Forest, Decision Tree, and SVM-SVR with different kernels, along with Linear Regression, provided insightful results.
+
+The Random Forest model, with a random state of 10 and 100 estimators, yielded promising results with an R2 value of 0.8122 and an RMSE of 157,732. This indicates a strong predictive capability for median housing prices based on the selected features. The Decision Tree model, with the same random state, showed a good R2 of 0.64111, although with a slightly higher RMSE of 218,093.3, suggesting that the ensemble approach of Random Forest outperformed the single decision tree.
+
+On the other hand, SVM-SVR, with different kernels (linear and poly), demonstrated varying degrees of success. The linear kernel produced an R2 of 0.4612 and an RMSE of 267,203.7, indicating a moderate fit. However, the poly  kernels showed lower R2 values (0.1155) and higher RMSE values (342,367.2), suggesting these may not be the most suitable kernels for this dataset.
+
+The Linear Regression model, focusing on selected columns such as price, bedrooms, bathrooms, sqft_living, and others, resulted in an RMSE of 210,560.9 and an R2 value of 0.6654. This linear model indicates a reasonable fit to the data, with the chosen features contributing positively to predictive accuracy.
+
+In summary, the Random Forest model stands out as the most effective in predicting housing prices in California, closely followed by the Decision Tree and Linear Regression models. The SVM-SVR models, particularly with poly and linear kernels, showed less favorable results. These findings provide valuable insights for stakeholders and researchers in the housing industry, emphasizing the importance of ensemble methods like Random Forest for accurate predictions in this context.
+![image](https://github.com/sanyamschauhan/California-House-pricing-KC-Housing-data-set-Supervised-Predictive-Model-Continuous-Regression/assets/156206085/40f6fa54-3df1-44cd-9a23-6b8b0ebf8183)
