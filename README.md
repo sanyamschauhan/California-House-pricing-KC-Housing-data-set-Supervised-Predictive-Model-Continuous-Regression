@@ -1,4 +1,4 @@
-# California-House-pricing-KC-Housing-data-set-Supervised-Predictive-Model-Continuous-Regression
+# California-House-pricing
 The California housing dataset, derived from the 1990 U.S. census, serves as a rich source for exploring housing patterns and building predictive models. Employing various machine learning algorithms, including Random Forest, Decision Tree, and SVM-SVR with different kernels, along with Linear Regression, provided insightful results.
 
 The Random Forest model, with a random state of 10 and 100 estimators, yielded promising results with an R2 value of 0.8122 and an RMSE of 157,732. This indicates a strong predictive capability for median housing prices based on the selected features. The Decision Tree model, with the same random state, showed a good R2 of 0.64111, although with a slightly higher RMSE of 218,093.3, suggesting that the ensemble approach of Random Forest outperformed the single decision tree.
